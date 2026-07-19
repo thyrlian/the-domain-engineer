@@ -28,3 +28,11 @@
 # To change:
   tdl training settings
 ```
+
+### AI coding support
+
+> MCP server (optional)
+> 
+> If you plan to use an AI coding tool (Claude Code, Cursor, etc.) alongside this training, the MCP server lets it run exercises and check results. It listens on 127.0.0.1 (localhost only) while tdl tr run is active.
+> 
+> The training works perfectly fine without it. It will integrate your coding agent with this CLI. Writing by hand is still the default, and may help the ideas stick. You can change this later with: tdl training settings
